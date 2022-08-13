@@ -17,3 +17,11 @@ if (true) {
     console.log(mensajeTres);
 }
 console.log(mensajeTres);
+
+// Manejo de variables dentro de ciclos
+for (let i = 0; i <= 10; i++) {
+    // 
+    // 
+    //
+}
+console.log(i) // genera error porque la variable i esta declarado dentro de un scope diferente
