@@ -1,3 +1,4 @@
+// Map es un nuevo tipo de colección de datos que tiene una llave y un valor
 let mapa = new Map();
 
 // añadir datos
