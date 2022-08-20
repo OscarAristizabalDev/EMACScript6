@@ -48,7 +48,7 @@ getEmpleado(2, (err, empleado) => {
         return console.log(err);
     }
 
-    // El problema con los callback es que se empieza a crecer cada vez que se hagan llamados
+    // El problema con los callback es que el codigo empieza a crecer cada vez que se hagan mas llamados internos
     getSalario(empleado, (err, salarioEmpleado) => {
         if (err) {
             return console.log(err);
