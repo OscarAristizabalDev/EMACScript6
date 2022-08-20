@@ -21,6 +21,11 @@ class Cuadrado extends Rectangulo {
         // se debe utilizar el Super para hereder las propiedades y metodos de la clase padre
         super(alto, largo);
     }
+
+    getArea() {
+        // return `Cuadrado: ${this.alto * this.largo}`;
+        return super.getArea(); // de esta forma va a tomar el metodo de la clase padre
+    }
 };
 
 let cuadrado = new Cuadrado(3, 3);
