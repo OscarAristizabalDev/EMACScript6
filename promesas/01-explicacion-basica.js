@@ -5,7 +5,7 @@ function tareaAsincrona() {
 
         setTimeout(function() {
             console.log("Proceso Asincrono Terminado");
-            resolver();
+            resolve();
         }, 1300);
     });
 
